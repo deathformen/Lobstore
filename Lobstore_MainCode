@@ -1,0 +1,10 @@
+password = "ABC@12345"
+passinp = input("Enter Password: ")
+for i in range (2):
+    if passinp == password:
+        print("Successfully Logged In")
+        break
+    else:
+        passinp = input("Enter Password: ")
+else:
+    print("Too many incorrect attempts...")
